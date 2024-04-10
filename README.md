@@ -32,7 +32,7 @@
 
 ### ore-cli.exe 是 windows 版本
 
-### ore-cli-man 是 m 系列 mac 版本
+### ore-cli-mac 是 m 系列 mac 版本
 
 ### 请根据不同的系统,替换成下面的执行命令
 
@@ -59,5 +59,11 @@
 批量归集命令, 此命令没有内置小费, 会自动检测代币余额, 没有到账的多执行几次即可
 
 ```
-./ore-cli token-transfer --fee 20000 --to 你的钱包地址
+./ore-cli token-transfer --rpc xxx --fee 20000 --to 你的钱包地址
+```
+
+批量查余额
+
+```
+./ore-cli balance --rpc xxx
 ```
